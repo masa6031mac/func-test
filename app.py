@@ -13,7 +13,7 @@ def http_trigger():
 
     # レスポンスの生成
     if name:
-        return jsonify({"message": f"Hello, {name}. This Flask app executed successfully."})
+        return jsonify({"messagea": f"Hello, {name}. This Flask app executed successfully."})
     else:
         return jsonify({"message": "This Flask app executed successfully. Pass a name in the query string or in the request body for a personalized response."})
 
